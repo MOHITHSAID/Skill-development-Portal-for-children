@@ -1,0 +1,227 @@
+/* #063C5E */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    position: relative;
+}
+
+/* -------------------button section--------------------- */
+
+.standardBtn{
+    width: 8em;
+    font-size: 1.25em;
+    color: white;
+    background-color: #063C5E;
+    border: 0px solid transparent;
+    border-radius: 50px;
+    height: 2.25em;
+}
+.standardBtn:hover{
+    background-color: #063c5ee7;
+}
+
+.standardBtnm{
+    width: 40%;
+    color: white;
+    background-color: #063C5E;
+    border: 0px solid transparent;
+    border-radius: 50px;
+    height: 2.25em;
+}
+.standardBtnm:hover{
+    background-color: #063c5ee7;
+}
+
+/* -------------------intro section--------------------- */
+
+.mainpage-intro{
+    height: 100vh;
+    padding: 0 0 0 50px;
+    display: flex;
+    align-items: center;
+}
+
+.mainpage-intro__left{
+    height: max-content;
+    width: 50%;
+}
+
+.mainpate-intro__right img{
+    width: 40vw;
+}
+
+.mainpage-intro__left h1{
+    font-size: 4em;
+}
+
+.mainpage-intro__left p{
+    margin-top: 2em;
+    font-size: 1.25em;
+    line-height: 30px;
+}
+
+.mainpage-intro__left__signin p{
+   display: inline-block;
+}
+
+.mainpage-intro__left__signin button{
+    margin-right: 2em;
+}
+
+.mainpage-intro__left__limits{
+    display: inline-block;
+    color: white;
+    padding: 5px 1em 5px 10px;
+    background-color: #063C5E;
+}
+
+/* -------------------about section--------------------- */
+
+.mainpage-about{
+    height: 80vh;
+    background-color: #063C5E;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.mainpage-about__right{
+    width: 50vw;
+}
+
+.mainpage-about__left{
+    width: 50vw;
+}
+
+.mainpage-about__left img{
+    width: 40vw;
+    height: auto;
+}
+
+.mainpage-about__right h1{
+    margin-bottom: 1em;
+}
+
+/* -------------------services section--------------------- */
+
+.mainpage-services{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.mainpage-services__left{
+    width: 50vw;
+    padding-left: 50px;
+}
+.mainpage-services__right{
+    width: 50vw;
+}
+
+.mainpage-services__right img{
+    width: 50vw;
+    height: auto;
+}
+
+.mainpage-services__left h1{
+    color: #063C5E;
+    margin-bottom: 1em;
+}
+
+
+.mainpage-testimonials{
+    background-color: #063C5E;
+    height: 80vh;
+    color: white;
+}
+.carousel-item img{
+    width: 20em; height: auto;
+}
+
+.footer {
+    height: 50vh;
+}
+
+.marks-div{
+    padding: 8rem;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.marks-div h2{
+    margin-bottom: 1rem;
+}
+
+.marks-div p{
+    margin-bottom: 1rem;
+}
+
+.marks-body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #063C5E;
+}
+
+/* --------------quiz page---------------- */
+
+.quiz-body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #063C5E;
+}
+
+.quiz-div{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: white;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.quiz-div h2{
+    text-align: center;
+}
+
+.quiz-div p{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.tmarks-body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #063C5E;
+}
+
+.tmarks-div{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: white;
+    width: 40%;
+    border-radius: 10px;
+    min-height: 50vh;
+}
+
+.tmarks-div p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.tmarks-div h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
